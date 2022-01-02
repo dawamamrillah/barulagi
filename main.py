@@ -37,7 +37,7 @@ def predict():
 >>>>>>> f8756e1efcc47aa77b848b7a20470979fb0a1396
     model_dict = {'Sequential'        : 'static/MLModule/sequential.h5',
                   'VGG19Model'   :   'static/MLModule/VGG19.h5',  
-                  'Inception V3'     :   'static/MLModule/InceptionV3.h5',}
+                  'Inception V3'     :   'static/MLModule/Inception.h5',}
 >>>>>>> 1a0574fa40341bee5596319a945562cf1d497d7d
     if chosen_model in model_dict:
         model = load_model(model_dict[chosen_model]) 
